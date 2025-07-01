@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pablo Bandeira</title>
+
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class=" flex width height bg-color fixed" style="--width: 100vw; --height: 4rem; --bg-color: #040726;">
+    <div class="flex justify-between width" style="--width: 100%;">
+      <a href="index.html">
+        <img src="images/logo.png" alt="" class="ml height" style="--ml: 1.5rem;" >
+      </a>
+      <div>
+        <nav>
+          <ul class=" list-none flex items-center gap-x mr text-color font-size" style="--gap-x: 3rem; --mr: 3rem; --font-size: 1.5rem;">
+            <li class="padding hover-bg hover-border hover-border-rounded transition" style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;">
+              <a class="link-none-sub link-none-color "
+                style="" href="about.html">
+                Sobre mim
+              </a>
+            </li>
+            <li>
+              <a class="padding link-none-sub link-none-color hover-bg hover-border hover-border-rounded transition"
+                style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;" href="qualifications.html">
+                Qualificações
+              </a>
+            </li>
+            <li class="padding link-none-sub link-none-color hover-bg hover-border hover-border-rounded transition"
+                style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;">
+              <a class="link-none-sub link-none-color" href="portfolio.html">Portfólio</a>
+            </li>
+            <li class="padding link-none-sub link-none-color hover-bg hover-border hover-border-rounded transition"
+                style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;">
+              <a class="link-none-sub link-none-color" href="contact.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <img src="images/background-general.png" autoplay muted loop playsinline class="width height fixed position-top position-left z-index object-fit" style="--width: 100%; --height: 100; --object-fit: cover;"></img>
+  
+   <main class="flex flex-col justify-start width height text-color" style="--width: 100%; --height: 100vh; --text-color: #aaaaaa;">
+    <div class="mt ml font-size width" style="--mt: 10rem; --ml: 5.5rem; --font-size: 1.25rem;--width: 60%;">
+      <h1>Contato</h1>
+      <p><i>Quer criar seu site ou sistema web? Fale comigo.</i></p><br>
+      <div class="bg-color rounded padding width flex flex-row mb" style="--bg-color: #AAA; --width: 100%; --mb: 2rem;">
+
+        <div class="rounded padding width border flex flex-col mr text-color" style="--width: 37%; --border: #132323; --text-color: #132323;">
+          <div class="flex flex-col">
+            <div class="flex flex-row items-center mb">
+              <img src="/images/whatsapp-icon.png " alt="" class="width mr" style="--width: 20%; --mr: 0.75rem;">
+              <a href="https://wa.me/5541998566738" target="_blank" class="link-none-sub link-none-color">(41) 9 9856-6738
+              </a>              
+            </div>
+            <div class="flex flex-row items-center mb">
+              <img src="/images/email-icon.png " alt="" class="width mr" style="--width: 20%; --mr: 0.75rem;">
+              <a href="mailto:pablo.bandeira@ymail.com" target="_blank" class="link-none-sub link-none-color font-size" style="--font-size: .9rem;">pablo.bandeira@ymail.com
+              </a> 
+            </div>
+            <p><b>Atendimento: </b>seg - sex</p>
+            <p><b>Horário: </b>08h - 19h</p>
+          </div>
+        </div>
+
+        <div class="rounded padding width flex flex-col border" style="--width: 60%; --border: #132323; ">
+            <form action="https://example.com/submit" method="post">
+            <input type="text" name="name" id="name" class="bg-color padding width font-size text-color rounded mb" style="--bg-color:#132323; --width: 100%; --width: 100%; --mb: .5rem; --text-color: #aaaaaa;" placeholder="Digite seu nome" required> <br>
+            
+            <input type="email" name="email" id="email" class="bg-color padding width font-size text-color rounded mb" style="--bg-color: #132323; --width: 100%; --mb: .5rem; --text-color: #aaaaaa;" placeholder="example@example.com" required><br>
+            
+            <input type="tel" name="phone" id="phone" class="bg-color padding width font-size text-color rounded mb" style="--bg-color: #132323; --width: 100%; --mb: .5rem; --text-color: #aaaaaa;" placeholder="(41 9 1234-5678)" required><br>
+            
+            <select name="service" id="service" class="bg-color padding width font-size text-color rounded mb" style="--bg-color: #132323; --width: 100%; --mb: .5rem; --text-color: #aaaaaa;">
+              <option value="" disabled selected>Selecione um serviço</option>
+            </select><br>
+    
+            <textarea name="description" id="description" class="bg-color padding width font-size text-color rounded mb" style="--bg-color: #132323; --width: 100%; --mb: .5rem; --text-color: #aaaaaa;" rows="5" placeholder="Conte um pouco sobre o que você precisa"></textarea>
+  
+              <button type="submit" class="bg-color padding width font-size text-color rounded mb" style="--bg-color: #132323; --width: 100%; --mb: .5rem; --text-color: #aaaaaa;"> Enviar 
+              </button>
+          </form>
+        </div>    
+      </div>
+    </div>  
+    </main>
+</body>
+
+
+</html>

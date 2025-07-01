@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pablo Bandeira</title>
+
+  <link rel="stylesheet" href="css/index.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header class=" flex width height bg-color fixed" style="--width: 100vw; --height: 4rem; --bg-color: #040726;">
+    <div class="flex justify-between width" style="--width: 100%;">
+      <a href="index.html">
+        <img src="images/logo.png" alt="" class="ml height" style="--ml: 1.5rem;" >
+      </a>
+      <div>
+        <nav>
+          <ul class=" list-none flex items-center gap-x mr text-color font-size" style="--gap-x: 3rem; --mr: 3rem; --font-size: 1.5rem;">
+            <li class="padding hover-bg hover-border hover-border-rounded transition" style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;">
+              <a class="link-none-sub link-none-color "
+                style="" href="about.html">
+                Sobre mim
+              </a>
+            </li>
+            <li>
+              <a class="padding link-none-sub link-none-color hover-bg hover-border hover-border-rounded transition"
+                style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;" href="qualifications.html">
+                Qualificações
+              </a>
+            </li>
+            <li class="padding link-none-sub link-none-color hover-bg hover-border hover-border-rounded transition"
+                style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;">
+              <a class="link-none-sub link-none-color" href="portfolio.html">Portfólio</a>
+            </li>
+            <li class="padding link-none-sub link-none-color hover-bg hover-border hover-border-rounded transition"
+                style="--hover-border-rounded: 0.5rem; --hover-bg: #ffffff33;">
+              <a class="link-none-sub link-none-color" href="contact.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <img src="images/background-general.png" autoplay muted loop playsinline class="width height fixed position-top position-left z-index object-fit" style="--width: 100%; --height: 100; --object-fit: cover;"></img>
+  
+  <main class="flex flex-col justify-start width height text-color" style="--width: 100%; --height: 100vh; --text-color: #aaaaaa;">
+    <div class="mt ml font-size width" style="--mt: 10rem; --ml: 5.5rem; --font-size: 1.25rem;--width: 60%;">
+      <h1>Portfólio</h1>
+      <p><i>Veja um pouco do que já fiz.</i></p><br>
+
+      <div class="bg-color text-color rounded padding width flex flex-row mb" style="--bg-color: #AAA; --text-color: #132323; --width: 100%; --mb: 2rem;">
+        <div class="flex flex-row width gap-x" style="--widh: 100%; --gap-x: 1rem;">
+          <div class="border rounded padding width" style="--border: #132323; --width: 50%;">
+            <h2 class="mb">React</h2>
+            <a href="https://pablolbandeira.github.io/caosculadora/" class="link-none-color link-none-sub" target="_blank">
+              <b class="mb">Caosculadora</b>
+            </a>
+            <p class="font-size mb" style="--font-size: 1.25rem;">Um desafio em forma de calculadora, na qual a sorte é a única forma de obter sucesso. A ideia aqui é mostrar a versatilidade da componentização usada no React.Js</p>
+
+            <a href="https://pablolbandeira.github.io/cold-alert/" class="link-none-color link-none-sub" target="_blank">
+              <b>Cold Alert</b>
+            </a>
+            <p class="font-size " style="--font-size: 1.25rem;">Uma aplicação de previsão do tempo incomum. Além de te mostrar a temperatura da sua cidade, compara ela com a de Curitiba e te diz como se preparar para o seu clima local. Tudo com muita descontração.</p>
+          </div>
+          <div class="flex flex-col width" style="--width: 50%;">
+            <div class="border rounded padding mb" style="--border: #132323; --mb: 1rem;">
+            <h2 class="mb">JavaScript</h2>
+            <a href="https://pablolbandeira.github.io/Pokedex/" class="link-none-color link-none-sub" target="_blank">
+              <b>Pokedex</b>
+            </a>
+            <p class="font-size " style="--font-size: 1.25rem;">Um modelo de pokedex usado para exemplificar o consumo de APIs de terceiros. Nela é possível saber mais sobre vários Pokemons com um simples clique.</p>
+            </div>
+            <div class="border rounded padding" style="--border: #132323;">
+            <h2 class="mb">PHP</h2>
+            <a href="https://github.com/PabloLBandeira/vaga-desenvolvedor" class="link-none-color link-none-sub" target="_blank">
+              <b>XPTO Vagas</b>
+            </a>
+            <p class="font-size " style="--font-size: 1.25rem;">Sistema completo de candidatura à vagas de emprego criada em PHP e Laravel, usando arquitetura monolítica. O sistema conta com registro de usuários, vagas e aplicações. As telas possuem filtros por texto, checkbox e ordenações, além de paginação. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </main>
+</body>
+
+
+</html>
